@@ -120,8 +120,6 @@ def jsonNormaliseAndInvertArrs(x):
                 elif len(x) == 1:
                     # Replace the nested array with its first element
                     x = x[0]
-                # Then call on new dict
-                # x = jsonNormaliseAndInvertArrs(x)
                     
             # If array contains nested arrays, concatenate all 
             elif isinstance(x[0], list):
