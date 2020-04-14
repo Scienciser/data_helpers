@@ -10,7 +10,7 @@ setuptools.setup(
     description="A set of Python functions to assist with data manipulation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Scienciser/data_helpers",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
